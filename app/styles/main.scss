@@ -61,6 +61,13 @@
   color: red;
 }
 
+#ball {
+  height:60px;
+  width:60px;
+  border-radius:50px;
+  background-color: purple;
+}
+
 .selected {
   background-color: green;
   display: inline;

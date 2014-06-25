@@ -18,6 +18,12 @@ $(document).ready(function() {
     });
 });
 
+// $(document).ready(function(){
+//     $('ball').click(function(){
+//         $(this).effect('bounce', {times:3}, 500);
+//     });
+// });
+
 
 $('#sel').last().addClass( "selected" );
 
