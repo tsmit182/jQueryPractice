@@ -12,17 +12,14 @@ $( "#checkMetaKey" ).click(function( event ) {
 
 
 $(document).ready(function() {
-    $('#somethingHere').fadeOut(10000);
-     $('#fader').mouseenter(function() {
-        	$(this).fadeTo('fast',.1);
+    $('#somethingHere').fadeOut(10000);	
+    $('#fader').mouseenter(function() {
+        $(this).fadeTo('fast',.1);
+	  $('#ball').click(function(){
+        $(this).effect('bounce', {times:3}, 500);
+    	});
     });
 });
-
-// $(document).ready(function(){
-//     $('ball').click(function(){
-//         $(this).effect('bounce', {times:3}, 500);
-//     });
-// });
 
 
 $('#sel').last().addClass( "selected" );
