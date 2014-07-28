@@ -19,11 +19,18 @@ $(document).ready(function() {
 });
 
 // $(document).ready(function(){
-//     $('ball').click(function(){
-//         $(this).effect('bounce', {times:3}, 500);
-//     });
+    $('#ball').click(function(){
+    // 	console.log('clicked the ball!');
+    // })
+		$(this).toggle('bounce'//, {times:3});
+	)});
+    //     $(this).effect('bounce', {times:3}, 500);
+    // });
 // });
 
 
 $('#sel').last().addClass( "selected" );
+
+
+
 
